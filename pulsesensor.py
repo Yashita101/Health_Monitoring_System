@@ -9,7 +9,7 @@ class Pulsesensor:
         self.adc = MCP3008(bus, device)
 
     def getBPMLoop(self):
-        # init variables
+        
         rate = [0] * 10         
         sampleCounter = 0       
         lastBeatTime = 0        
